@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-3">
               <Image
-                src="/django-icon.svg"
+                src="/django.svg"
                 alt="Django logo"
                 width={30}
                 height={30}
@@ -89,14 +89,37 @@ export default function Home() {
           </div>
         </div>
        </div>
-       <div className="mt-12 mx-3 lg:mx-64">
+       <div className="my-12 mx-3 lg:mx-64">
         <div className="text-3xl text-center">Experience</div>
+          <div>
+            Climate Smart
+          </div>
           <div className="flex justify-center gap-6 mt-6">
             <div>
-              Climate Smart: Data visualization, rebranding
+              Data visualization: Using MUI charts and custom components, I created a dashboard to display data from the Django API. 
+              Care was taken to ensure performance with large datasets by reducing hooks and optimizing the API.
+              The chart was made dynamic, allowing users to select the data they wanted to see by interacting with the table.
             </div>
             <div>
               Image
+            </div>
+          </div>
+          <div className="flex justify-center gap-6 mt-6">
+            <div>
+              Rebrand: given a minimal design system, I redid the styling across the application, creating new components and extrapolating the design system.
+            </div>
+            <div>
+              Images
+            </div>
+          </div>
+          <div className="mt-12">
+            Justin Ikenouye Portfolio Site
+          </div>
+          <div className="flex justify-center gap-6 mt-6">
+            <div>
+              Using Next.js and Tailwind CSS, I created a personal website to showcase my work.
+              I wanted to have a simple yet playful design, using label maker-like containers with monospaced fonts
+               contrasted against oceanic imagary to maintain readability and visual intrigue.
             </div>
           </div>
        </div>
