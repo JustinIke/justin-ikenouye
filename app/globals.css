@@ -11,11 +11,12 @@
   --cadet-gray-2: #8e9ca3ff;
   --slate-gray: #6d828cff;
   --charcoal: #33464f;
+  --air-force-blue: #768fa1;
 }
 
 body {
   color: var(--background);
-  background: var(--background);
+  background: var(--air-force-blue);
   font-family: Arial, Helvetica, sans-serif;
 }
 
