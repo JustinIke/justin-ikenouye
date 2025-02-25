@@ -8,7 +8,7 @@ export default function Home() {
          <div className="bg-[url(/waves.jpg)] bg-cover bg-no-repeat bg-center w-screen h-[50rem] flex items-center justify-center" />
         </div>
         <div className="w-screen p-6 flex items-center justify-between gap-6">
-          <div className="text-2xl p-2 bg-black transition-shadow shadow-0 hover:shadow-10 z-[1]">Justin Ikenouye</div>
+          <div className="text-2xl p-2 bg-black transition-shadow shadow-0 hover:shadow-5 z-[1]">Justin Ikenouye</div>
           <div className="z-[1] flex gap-3">
             <a
               href="https://github.com/JustinIke"
@@ -38,17 +38,17 @@ export default function Home() {
           </div>
         </div>
        <div className="w-screen h-80 flex items-center justify-center">
-        <div className="text-4xl mx-6 p-3 bg-black transition-shadow shadow-0 hover:shadow-10 z-[1] text-center">Hey, I'm Justin - Software Developer</div>
+        <div className="text-4xl mx-6 p-3 bg-black transition-shadow shadow-0 hover:shadow-5 z-[1] text-center">Hey, I'm Justin - Software Developer</div>
        </div>
        
        <div className="flex justify-center mx-6 gap-3">
         <div className="w-3/5 lg:w-1/3 h-80 z-[1]">
-          <div className="text-2xl p-3 bg-black transition-shadow shadow-0 hover:shadow-10">
+          <div className="text-2xl p-3 bg-black transition-shadow shadow-0 hover:shadow-5">
             I'm passionate about creating smooth user experiences alongside compelling interfaces.
           </div>
         </div>
         <div className="w-2/5 lg:w-1/5 h-96 z-[1]">
-          <div className="text-2xl p-3 bg-black transition-shadow shadow-0 hover:shadow-10 flex flex-col gap-3">
+          <div className="text-2xl p-3 bg-black transition-shadow shadow-0 hover:shadow-5 flex flex-col gap-3">
             Core Skills
             <div className="flex items-center gap-3">
               <Image
@@ -89,24 +89,27 @@ export default function Home() {
           </div>
         </div>
        </div>
-       <div className="my-12 mx-3 lg:mx-64">
+       <div className="my-12 mx-3 lg:mx-32">
         <div className="text-3xl text-center">Experience</div>
-          <div>
+          <div className="text-2xl mt-6">
             Climate Smart
           </div>
-          <div className="flex justify-center gap-6 mt-6">
+          <div className="flex justify-center gap-6 mt-6 p-6 border">
             <div>
-              Data visualization: Using MUI charts and custom components, I created a dashboard to display data from the Django API. 
+              Data visualization: Using MUI charts and datagrid components, I created a dashboard to display data from the Django API. 
               Care was taken to ensure performance with large datasets by reducing hooks and optimizing the API.
               The chart was made dynamic, allowing users to select the data they wanted to see by interacting with the table.
             </div>
-            <div>
-              Image
-            </div>
+            <Image
+              src="/climatesmart-reports.jpeg"
+              alt="Climate Smart Reports"
+              width={400}
+              height={300}
+            />
           </div>
           <div className="flex justify-center gap-6 mt-6">
             <div>
-              Rebrand: given a minimal design system, I redid the styling across the application, creating new components and extrapolating the design system.
+              Rebrand: given a minimal design system, I redid the styling across the application, creating new components and expanding on the designs.
             </div>
             <div>
               Images
@@ -127,7 +130,7 @@ export default function Home() {
         <div className="bg-[url(/rocks.jpg)] bg-cover bg-no-repeat bg-center w-screen h-[50rem]" />
       </div>
       <div className="w-screen h-[50rem] flex items-end justify-center pb-6">
-        <div className="text-1xl p-3 bg-black transition-shadow shadow-0 hover:shadow-10 z-[1]">Photos by me :)</div>
+        <div className="text-1xl p-3 bg-black transition-shadow shadow-0 hover:shadow-5 z-[1]">Photos by me :)</div>
        </div>
       </main>
     </div>

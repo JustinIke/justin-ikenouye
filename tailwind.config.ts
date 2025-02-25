@@ -14,7 +14,7 @@ export default {
       },
       boxShadow: {
         "0": "0 0 0 0 white",
-        "10": "10px 10px 0 0 white",
+        "5": "5px 5px 0 0 white",
       },
     },
   },
