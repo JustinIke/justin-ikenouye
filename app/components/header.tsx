@@ -16,7 +16,7 @@ export default function Header() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/github.png"
+                src="./github.png"
                 alt="Github logomark"
                 width={50}
                 height={50}
@@ -28,7 +28,7 @@ export default function Header() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/linkedin.png"
+                src="./linkedin.png"
                 alt="Linkedin logomark"
                 width={50}
                 height={50}
@@ -52,7 +52,7 @@ export default function Header() {
               Core Skills
               <div className="flex items-center gap-3">
                 <Image
-                  src="/React-icon.png"
+                  src="./React.png"
                   alt="React logo"
                   width={30}
                   height={30}
@@ -61,7 +61,7 @@ export default function Header() {
               </div>
               <div className="flex items-center gap-3">
                 <Image
-                  src="/Typescript.png"
+                  src="./Typescript.png"
                   alt="TypeScript logo"
                   width={30}
                   height={30}
@@ -70,7 +70,7 @@ export default function Header() {
               </div>
               <div className="flex items-center gap-3">
                 <Image
-                  src="/django.svg"
+                  src="./django.svg"
                   alt="Django logo"
                   width={30}
                   height={30}
@@ -79,7 +79,7 @@ export default function Header() {
               </div>
               <div className="flex items-center gap-3">
                 <Image
-                  src="/mui.svg"
+                  src="./mui.svg"
                   alt="MUI logo"
                   width={30}
                   height={30}

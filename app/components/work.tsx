@@ -24,7 +24,7 @@ export default function Work() {
               Multiple tabs were added to allow users to view data in different ways.
             </div>
             <Image
-              src="/climatesmart-reports.jpeg"
+              src="./climatesmart-reports.jpeg"
               alt="Climate Smart Reports"
               width={400}
               height={385}
@@ -40,19 +40,19 @@ export default function Work() {
             </div>
             <div className="flex flex-row flex-wrap justify-center gap-6 mt-6">
               <Image
-                src="/climatesmart-old.jpeg"
+                src="./climatesmart-old.jpeg"
                 alt="Climate Smart Old"
                 width={300}
                 height={557}
               />
               <Image
-                src="/climatesmart-rebrand1.png"
+                src="./climatesmart-rebrand1.png"
                 alt="Climate Smart Rebrand 1"
                 width={300}
                 height={557}
               />
               <Image
-                src="/climatesmart-rebrand2.png"
+                src="./climatesmart-rebrand2.png"
                 alt="Climate Smart Rebrand 2"
                 width={300}
                 height={557}
