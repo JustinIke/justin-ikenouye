@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Atkinson_Hyperlegible, Cutive, Cutive_Mono, Geist, Geist_Mono } from "next/font/google";
+import { Cutive_Mono, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,12 +14,6 @@ const geistMono = Geist_Mono({
 
 const cutiveMono = Cutive_Mono({
   variable: "--font-cutive-mono",
-  subsets: ["latin"],
-  weight: "400"
-});
-
-const atkinsonHyperlegible = Atkinson_Hyperlegible({
-  variable: "--font-atkinson-hyperlegible",
   subsets: ["latin"],
   weight: "400"
 });
