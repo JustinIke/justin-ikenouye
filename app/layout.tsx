@@ -10,7 +10,7 @@ const cutiveMono = Cutive_Mono({
 
 export const metadata: Metadata = {
   title: "Justin Ikenouye",
-  description: "Justin Ikenouye's personal website",
+  description: "Justin Ikenouye's portfolio website",
 };
 
 export default function RootLayout({
