@@ -1,11 +1,12 @@
 import Image from "next/image";
-
+import waves from "../../public/waves.jpg";
 
 export default function Header() {
   return (
     <>
       <div className="mask-image absolute z-[-1]">
-          <div className="bg-[url(/waves.jpg)] bg-cover bg-no-repeat bg-center w-screen h-[50rem] flex items-center justify-center" />
+          <div className=' bg-cover bg-no-repeat bg-center w-screen h-[50rem] flex items-center justify-center' 
+          style={{ backgroundImage: `url(${waves.src})`}} />
         </div>
         <div className="w-screen p-6 flex items-center justify-between gap-6">
           <div className="text-2xl p-2 bg-black transition-shadow shadow-0 hover:shadow-5">Justin Ikenouye</div>
