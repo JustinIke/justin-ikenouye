@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Cutive_Mono, Geist, Geist_Mono } from "next/font/google";
+import { Cutive_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const cutiveMono = Cutive_Mono({
   variable: "--font-cutive-mono",
@@ -31,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${cutiveMono.variable} antialiased`}
+        className={`${cutiveMono.variable} antialiased`}
       >
         {children}
       </body>
