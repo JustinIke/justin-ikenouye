@@ -76,11 +76,12 @@ export default function Work() {
           <div className="text-2xl">
             BesTeas2Me
           </div>
-          <div className="flex justify-center gap-6 mt-3">
+          <div className="mt-3">
             <div>
               Using Ruby with Jekyll, I designed and developed a bubble tea blog according to a client's needs.
               I enabled Netlify CMS to allow the client to easily update the blog without needing to know how to code.
             </div>
+            <a href="https://besteas2me.netlify.app/" target="_blank" rel="noopener noreferrer">besteas2me.netlify.app</a>
           </div>
         </div>
       </div>
