@@ -4,11 +4,11 @@ import waves from "../../public/waves.jpg";
 export default function Header() {
   return (
     <>
-      <div className="mask-image absolute">
-          <div className='bg-cover bg-no-repeat bg-center w-screen h-[50rem] flex items-center justify-center' 
+      <div className="mask-image absolute w-full">
+          <div className='bg-cover bg-no-repeat bg-center h-[50rem] flex items-center justify-center' 
           style={{ backgroundImage: `url(${waves.src})`}} />
         </div>
-        <div className="w-screen p-6 flex items-center justify-between gap-6">
+        <div className="p-6 flex items-center justify-between gap-6">
           <div className="text-2xl p-2 bg-black transition-shadow shadow-0 hover:shadow-5 z-[1]">Justin Ikenouye</div>
           <div className="flex gap-3 z-[1]">
             <a
