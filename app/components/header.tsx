@@ -38,7 +38,7 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <div className="w-screen h-80 flex items-center justify-center">
+        <div className="h-80 flex items-center justify-center">
           <div className="text-4xl mx-6 p-3 bg-black transition-shadow shadow-0 hover:shadow-5 text-center z-[1]">Hey, I'm Justin - Software Developer</div>
         </div>
 
