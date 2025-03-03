@@ -48,7 +48,7 @@ export default function Header() {
               I'm passionate about creating smooth user experiences alongside compelling interfaces.
             </div>
           </div>
-          <div className="md:w-2/5 lg:w-1/5 z-[1]">
+          <div className="z-[1]">
             <div className="text-2xl p-3 bg-black transition-shadow shadow-0 hover:shadow-5 flex flex-col gap-3">
               Core Skills
               <div className="flex items-center gap-3">
